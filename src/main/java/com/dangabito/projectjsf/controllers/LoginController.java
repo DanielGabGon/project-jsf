@@ -48,11 +48,11 @@ public class LoginController {
 			try {
 				this.redireccionar("principal.xhtml");
 			} catch (IOException e) {
-				  FacesContext.getCurrentInstance().addMessage("", new FacesMessage(FacesMessage.SEVERITY_FATAL, "La Página no existe",""));
+				  FacesContext.getCurrentInstance().addMessage("formLogin:txtUsuario", new FacesMessage(FacesMessage.SEVERITY_FATAL, "La Página no existe",""));
 				e.printStackTrace();
 			}
 		}else {
-			FacesContext.getCurrentInstance().addMessage("formLogin:txtUsuario", new FacesMessage(FacesMessage.SEVERITY_ERROR,"Usuario y/o Contraseña incorrectos", ""));
+			FacesContext.getCurrentInstance().addMessage("formLogin:txtPassword", new FacesMessage(FacesMessage.SEVERITY_ERROR,"Usuario y/o Contraseña incorrectos", ""));
 		}
 		
 	}

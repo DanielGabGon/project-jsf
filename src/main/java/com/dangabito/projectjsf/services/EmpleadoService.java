@@ -20,27 +20,107 @@ public class EmpleadoService {
 		Empleado empleadoMicro= new Empleado();
 		Empleado empleadoApple= new Empleado();
 		
-		empleadoIBM.setNombre("Diego");
-		empleadoIBM.setPrimerApellido("Paniagua");
-		empleadoIBM.setSegundoApellido("Ramirez");
-		empleadoIBM.setPuesto("Senior Developer Java");
+		Empleado empleadoNexflix= new Empleado();
+		Empleado empleadoAmazon= new Empleado();
+		Empleado empleadoHp= new Empleado();
+		
+		Empleado empleadoOracle= new Empleado();
+		Empleado empleadoDeloite= new Empleado();
+		Empleado empleadoDisney= new Empleado();
+		
+		Empleado empleadoBoostrat= new Empleado();
+		Empleado empleadoGoogle= new Empleado();
+		Empleado empleadoBestBuy= new Empleado();
+		
+		
+		empleadoIBM.setNombre("Marco");
+		empleadoIBM.setPrimerApellido("Mendez");
+		empleadoIBM.setSegundoApellido("Romulo");
+		empleadoIBM.setPuesto("Oracle");
 		empleadoIBM.setEstatus(true);
 		
-		empleadoMicro.setNombre("Daniel");
-		empleadoMicro.setPrimerApellido("Gabriel");
-		empleadoMicro.setSegundoApellido("González");
-		empleadoMicro.setPuesto("Arquitecto Developer Java");
+		empleadoMicro.setNombre("Olivia");
+		empleadoMicro.setPrimerApellido("Gongora");
+		empleadoMicro.setSegundoApellido("Alvárez");
+		empleadoMicro.setPuesto("Cientifica");
 		empleadoMicro.setEstatus(false);
 		
-		empleadoApple.setNombre("Luís");
-		empleadoApple.setPrimerApellido("López");
-		empleadoApple.setSegundoApellido("Carrillo");
-		empleadoApple.setPuesto("Analista");
+		empleadoApple.setNombre("Alfredo");
+		empleadoApple.setPrimerApellido("González");
+		empleadoApple.setSegundoApellido("Perez");
+		empleadoApple.setPuesto("Desa");
 		empleadoApple.setEstatus(true);
+		
+		empleadoNexflix.setNombre("Diego");
+		empleadoNexflix.setPrimerApellido("Paniagua");
+		empleadoNexflix.setSegundoApellido("Ramirez");
+		empleadoNexflix.setPuesto("Senior Developer Java");
+		empleadoNexflix.setEstatus(true);
+		
+		empleadoAmazon.setNombre("Daniel");
+		empleadoAmazon.setPrimerApellido("Gabriel");
+		empleadoAmazon.setSegundoApellido("González");
+		empleadoAmazon.setPuesto("Arquitecto Developer Java");
+		empleadoAmazon.setEstatus(false);
+		
+		empleadoHp.setNombre("Luís");
+		empleadoHp.setPrimerApellido("López");
+		empleadoHp.setSegundoApellido("Carrillo");
+		empleadoHp.setPuesto("Analista");
+		empleadoHp.setEstatus(true);
+		
+		empleadoOracle.setNombre("Armando");
+		empleadoOracle.setPrimerApellido("Perez");
+		empleadoOracle.setSegundoApellido("Garnica");
+		empleadoOracle.setPuesto("Developer Java");
+		empleadoOracle.setEstatus(true);
+		
+		empleadoDeloite.setNombre("Sofia");
+		empleadoDeloite.setPrimerApellido("Quijano");
+		empleadoDeloite.setSegundoApellido("Garcia");
+		empleadoDeloite.setPuesto("Analista");
+		empleadoDeloite.setEstatus(false);
+		
+		empleadoDisney.setNombre("Joel");
+		empleadoDisney.setPrimerApellido("Luciano");
+		empleadoDisney.setSegundoApellido("Carrasco");
+		empleadoDisney.setPuesto("UX");
+		empleadoDisney.setEstatus(true);
+		
+		empleadoBoostrat.setNombre("Demencio");
+		empleadoBoostrat.setPrimerApellido("Origel");
+		empleadoBoostrat.setSegundoApellido("Romulo");
+		empleadoBoostrat.setPuesto("Secretario");
+		empleadoBoostrat.setEstatus(true);
+		
+		empleadoGoogle.setNombre("Karla");
+		empleadoGoogle.setPrimerApellido("Ruiz");
+		empleadoGoogle.setSegundoApellido("Gomez");
+		empleadoGoogle.setPuesto("Middle Java");
+		empleadoGoogle.setEstatus(false);
+		
+		empleadoBestBuy.setNombre("Alfonso");
+		empleadoBestBuy.setPrimerApellido("Palillo");
+		empleadoBestBuy.setSegundoApellido("Gomora");
+		empleadoBestBuy.setPuesto("Database");
+		empleadoBestBuy.setEstatus(true);
+		
 		
 		empleados.add(empleadoIBM);
 		empleados.add(empleadoApple);
 		empleados.add(empleadoMicro);
+		
+		empleados.add(empleadoNexflix);
+		empleados.add(empleadoAmazon);
+		empleados.add(empleadoHp);
+		
+		empleados.add(empleadoOracle);
+		empleados.add(empleadoDeloite);
+		empleados.add(empleadoDisney);
+		
+		empleados.add(empleadoBoostrat);
+		empleados.add(empleadoGoogle);
+		empleados.add(empleadoBestBuy);
 		return empleados;
 		
 	}
